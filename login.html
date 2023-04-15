@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>      </title>
+    <link rel="stylesheet" href="./thuchanh.css">
+    <!-- để liên kết css vs html tạp link -->
+</head>
+<body>
+
+  <div class="form-wrapper">
+      <form action="">
+        <h1>Sign In With</h1>
+        <div style="display: flex;">
+            <div style="background-color: blue; color: aliceblue; padding: 10px 20px; border-radius: 5px;  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">Facebook</div>
+            <div style="background-color: white; padding: 10px 20px; border-radius: 5px; margin-left: 20px; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">Google</div>
+        </div>
+        <label for="">Email</label>
+        <input type="email" name="email"
+        placeholder="Email" 
+        class="form-input">
+        <label for="">Password</label>
+        <input type="password" name="password"
+        placeholder="password"
+        class="form-input">
+        <button style="background-color: rgb(83, 85, 85); padding: 10px 50px; border: none; color :aliceblue;"><a href="./thuchanh.html" style="text-decoration: none;">Sign In</a></button>
+      </form>
+
+  </div>
+  <style>
+   * {
+    box-sizing: border-box;
+
+    }
+
+    body {
+        margin: 0;
+        background-color: aliceblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+
+    }
+    .form-wrapper {
+        background-color: bisque;
+   
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        border-top: 2px solid #f5ba1a ;
+        padding: 50px 50px;
+        width: 35%;
+        margin-top: 150px;
+    }
+
+    form > h1 {
+        text-align: center;
+
+    }
+
+    form {
+         display: flex;
+         flex-direction: column;
+         padding-left: 20px;
+         padding-right: 20px;
+         padding-bottom: 20px;
+         gap: 20px;
+        
+    }
+
+    .form-input {
+        padding: 8px 10px;
+        height: 35px;
+        border: 1px solid #cccccc;
+        outline: none;
+
+    }
+
+    .name-wrapper {
+        display: flex;
+        gap: 20px;
+    }
+
+    .gender-wrapper {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    input[type="radio"] {
+        margin: 0; 
+
+    }
+
+    .gender-wrapper > label {
+        margin-right: 20px;
+        cursor: pointer;
+    }
+  </style>
+    
+</body>
+</html>

@@ -1,0 +1,131 @@
+.wrapper{
+    display: flex;
+    /* width: 100%; */
+    height: 80px;
+    /* padding: 0px 20px; */
+    /* background: #df2929; */
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rgb(28, 28, 28); */
+    background-color: #BFBAB2;
+    border: solid 1px rgb(249, 243, 243);
+    font-size: 20px;
+    border-radius: 3px;
+  }
+
+  .h-img{
+    width: 90%;
+  }
+
+  .left{
+    /* background-color: rgb(66, 255, 84); */
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .left:hover{
+    background-color:#b1b1b1;
+  }
+  .left1{
+    /* background-color: rgb(46, 255, 85); */
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 80px; */
+  }
+  .left1:hover{
+    background-color: #d4d4d4;
+  }
+  
+  body{
+    margin: 0 ;
+  }
+  .item{
+    height: 100%;
+    /* width: auto; */
+    cursor: pointer;
+    position: relative;
+    line-height: 50px;
+  }
+  
+  /* .item:hover{
+    background-color: rgb(208, 125, 222);
+     padding: 0px 20px; 
+  } */
+  
+  .dropdown-content{
+    transition-timing-function: linear;
+    transition: width 2s, height 4s;
+    transition: width 2s, height 2s, transform 2s;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    transition: width 2s ease;
+    height: 0px;
+  }
+  
+  .item:hover .dropdown-content {
+    display: block;
+    height: auto;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .bigC{
+    margin: 50px 150px;
+  }
+  
+  .com{
+    margin-bottom: 200px;
+    background-size: 200px;
+    color: rgb(250, 250, 250);
+    background-color: rgb(67, 77, 77);
+    margin: 30px;
+    border-color: rgba(139, 245, 146, 0.812);
+    border-radius: 20px;
+    padding: 20px 10px;
+
+  }
+
+  .item1{
+    border: solid 1px black;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(224, 229, 141);
+    border-radius: 3px;
+    margin-top:40px ;
+  
+  }
+
+  .item1:hover{
+    cursor: pointer;
+    background: rgb(151, 245, 139);
+  }
+  
+ 
+  .item5{
+    border: solid 1px rgb(89, 88, 88);
+    width: 200px;
+    height: 50px;
+    background-color: rgb(153, 206, 228);
+    border-radius: 3px;
+    margin-top: 50px;
+    text-align:center
+  
+    
+  }
